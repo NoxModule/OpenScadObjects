@@ -1,6 +1,8 @@
 {
     "extensions": {
-        "recommendations": []
+        "recommendations": [
+            "Antyos.openscad"
+        ]
     },
     "folders": [
         {
