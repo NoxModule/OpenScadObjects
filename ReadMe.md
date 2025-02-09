@@ -3,7 +3,9 @@ Repository of [OpenSCAD](https://openscad.org/index.html) objects I have created
 
 ## Objects
 - **Hat Hook:** Holds a baseball cap onto a chain hanging from the ceiling.
-
+    1. **First Version**
+    1. **Second Version:** Half as thick as the previous version and has a slightly larger hook.
+    
 ## Recommended VSCode Extensions
 - [OpenSCAD](https://marketplace.visualstudio.com/items?itemName=Antyos.openscad) - Adds OpenSCAD language support.
 
