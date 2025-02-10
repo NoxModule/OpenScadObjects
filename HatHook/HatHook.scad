@@ -1,12 +1,12 @@
 include <BOSL2/std.scad>
 
-// Diameter of the connection.
-connection_diameter = 9;
+// Diameter of the connection hook.
+connection_hook_diameter = 9;
 
-// Diameter of the hook.
-hook_diameter = 26;
+// Diameter of the hat hook.
+hat_hook_diameter = 26;
 
-// Thickness of the part.
+// Thickness of the hook.
 thickness = 4;
 
 /* [Hidden] */
@@ -14,8 +14,8 @@ $fn = 64;
 
 path = turtle(
     [
-        "arcrightto", (connection_diameter + thickness) / 2, 90,
-        "arcleftto", (hook_diameter + thickness) / 2, 0,
+        "arcrightto", (connection_hook_diameter + thickness) / 2, 80,
+        "arcleftto", (hat_hook_diameter + thickness) / 2, -23,
     ],
     state = [0, 0]);
 
